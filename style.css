@@ -1,0 +1,52 @@
+body.bg{
+  background-image: url("images/b.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.expandable-textarea {
+  border: 4px groove black;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;;
+  border-style: groove;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  resize: both;
+  min-height: 70px;
+  line-height: 20px;
+}
+
+.banner{
+  /*background-color: lightslategray;*/
+  
+  position: absolute;
+  background-image: url("images/b3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  top: 0;
+  left:0;
+}
+
+.text-box-container{
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.title{
+  text-align: center;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3.daytitle{
+  padding-bottom: 0%;
+  padding-left: 2%;
+  color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
